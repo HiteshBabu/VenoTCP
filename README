@@ -1,0 +1,5 @@
+Built linux 4.3.0 kernel from source with performance enhancements made to built-in TCP modules of networking stack i.e., removing slow start and exponentially back-off.
+
+Configured dynamically loadable Veno TCP congestion control related kernel modules for on-demand installation.
+
+We able to achieve throughput of 28.8 Mbps on 100Mbps, 400 RTT and 20% lossy connection compared to just 1 Mbps throughput achieved when default kernel TCP is used. 
